@@ -1,0 +1,57 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #4D5AE3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .search {
+    position: relative;
+    max-width: 25vw;
+    min-width: 290px;
+    margin: 0 auto;
+    text-align: center;
+  
+    &__button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;   
+      background: none;
+      cursor: pointer;
+      border: none;
+      
+      padding: 0 10px;
+      background-color: rgb(228, 225, 225);
+      border-radius: 0 5px 5px 0;
+      
+      transition-duration: $transition-duration;
+      transition-timing-function: $timing-function;
+  
+      &:hover,
+      &:focus{
+        background-color: #d4d5d8;
+        
+      }
+    }
+  
+    &__input {
+      width: 100%;
+      padding: 5px 10px;
+      font-family: "Basic";
+      font-size: 17px;
+      border: none;
+      border-radius: 5px;
+          &:focus{
+             outline: none;
+
+  }
+      &::placeholder {
+        font-family: "Basic";
+      }
+    }
+  }

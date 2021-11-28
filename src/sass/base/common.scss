@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    margin: 0;
+    font-family: "Basic";
+  }
+  
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+  }
+  
+  .gallery__link {
+    text-decoration: none;
+  }
+  
+  .gallery,
+  .gallery__info {
+    list-style: none;
+  }
+  

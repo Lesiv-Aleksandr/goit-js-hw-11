@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 11</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <form class="search" id="search-form">
+          <input
+            class="search__input"
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button class="search__button" type="submit">
+            <img src="images/search.svg" width="20" height="20" alt="icon-search" />
+          </button>
+        </form>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <ul class="gallery"></ul>
+        <div>
+          <button type="button" class="load-button is-hidden">Load more</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
