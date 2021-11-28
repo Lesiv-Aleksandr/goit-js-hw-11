@@ -1,5 +1,5 @@
 
-import "./sass/main.scss";
+import './sass/main.scss';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import getPixabay from './moduleJS/fetchPixabay.js';
 import SimpleLightbox from 'simplelightbox';
